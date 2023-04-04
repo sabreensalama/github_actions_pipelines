@@ -1,0 +1,10 @@
+name: first_workflow
+#workflow_dispatch to run the pipeline manual
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: printing hello world
+      run: echo "hello world"
+   
