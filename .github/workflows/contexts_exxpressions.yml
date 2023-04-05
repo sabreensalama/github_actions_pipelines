@@ -4,6 +4,6 @@ jobs:
   first_job:
     runs-on: ubuntu-latest
     steps:
-    - name: printing hello world
+    - name: printing context github
       run: echo "{{ toJSON(github) }}"
 
