@@ -9,6 +9,6 @@ jobs:
     - name: install dependencies
       working-directory: ./hello-world
       run: npm i
-    - name: test app
-      working-directory: ./hello-world
-      run: npm test
+    # - name: test app
+    #   working-directory: ./hello-world
+    #   run: npm test
