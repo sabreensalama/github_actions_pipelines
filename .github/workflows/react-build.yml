@@ -1,7 +1,7 @@
 name: build react app workflow
 on: push
 jobs:
-  test-react:
+  test-react-job:
     runs-on: ubuntu-latest
     steps:
     - name: checkout code
